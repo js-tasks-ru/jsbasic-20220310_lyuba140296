@@ -8,7 +8,5 @@ function getMinMax(str) {
      }
   }
   result.sort((a,b) => { return a - b } );
-  console.log(result);
-  
   return { min: result[0], max: result[result.length - 1]}
 }
